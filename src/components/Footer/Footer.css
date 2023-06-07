@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.footer-items {
+  width: 20%;
+}
+.footer-items__content div a {
+  display: block;
+}

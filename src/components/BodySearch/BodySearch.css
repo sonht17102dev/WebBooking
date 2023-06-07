@@ -1,0 +1,48 @@
+.search-form {
+  background-color: #febb02;
+  height: 630px;
+}
+.search-form h3 {
+  color: #555554;
+  font-weight: 600;
+}
+.search-form .form-items {
+  border: none;
+}
+.search-form .form-group .form-control {
+  background-color: #febb02;
+}
+.search-form .form-group .form-control .col-form-label {
+  color: #6d6b31;
+}
+.my-gap {
+  column-gap: 24px;
+}
+.hotel-list img {
+  width: 100%;
+  height: 151px;
+}
+.hotel-detail {
+  border: 1px solid #6d6b31;
+  height: 350px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.hotel-detail mark {
+  background-color: green;
+  border-radius: 5px;
+}
+.hotel-name {
+  font-weight: 600;
+  color: #0d6efd;
+}
+.hotel-cancel {
+  color: green;
+}
+.rate mark {
+  background-color: blue;
+  border-radius: 5px;
+}
+.tax-fee {
+  color: rgb(198, 184, 184);
+}

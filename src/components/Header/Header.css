@@ -1,0 +1,24 @@
+#header {
+  background-color: #003580;
+  color: white;
+}
+.header {
+  position: relative;
+}
+.header .header-form-search {
+  position: absolute;
+  top: 195px;
+}
+
+.form-input input {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-input label i {
+  color: #d3d3d3;
+}
+.header-form-search {
+  border: 2px solid #febb02;
+  background-color: white;
+}
