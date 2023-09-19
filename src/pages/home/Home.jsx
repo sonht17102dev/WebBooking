@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar';
+import NavbarLayout from '../../components/Navbar/NavbarLayout';
 import Header from '../../components/Header/Header';
 import BodyContent from '../../components/BodyHome/BodyContent';
 import Footer from '../../components/Footer/Footer';
@@ -18,7 +18,7 @@ const Home = (props) => {
 	return (
 		<div className='section-padding'>
 			<section id="navbar">
-				<Navbar />
+				<NavbarLayout />
 			</section>
 			<section id="header">
 				<Header />

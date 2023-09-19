@@ -2,7 +2,7 @@ import React from "react";
 import dataType from "../../data/type.json";
 const Type = (props) => {
   return (
-    <div className=" type mt-3">
+    <div className="d-flex justify-content-between my-4">
       {dataType.map((type, i) => {
         return (
           <div className="type-items" key={i}>

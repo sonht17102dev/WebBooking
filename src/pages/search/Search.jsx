@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar';
+import NavbarLayout from '../../components/Navbar/NavbarLayout';
 import Footer from '../../components/Footer/Footer';
 import BodySearch from '../../components/BodySearch/BodySearch';
 const Search = () => {
   return (
     <div className='section-padding'>
 			<section id="navbar">
-				<Navbar />
+				<NavbarLayout />
 			</section>
 			
 			<section id="body-content">

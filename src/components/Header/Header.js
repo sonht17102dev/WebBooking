@@ -37,13 +37,13 @@ const Header = (props) => {
         <form className="form-group form-input row justify-content-center align-items-center text-center">
           <div className="form-input col-lg-4 ">
             <label>
-              <i className="fa fa-bed text-dark"></i>
+              <i className="fa fa-bed text-dark px-2"></i>
             </label>
             <input type="text" placeholder="Where are you going?" />
           </div>
           <div className="form-input col-lg-4">
             <label>
-              <i className="fa fa-calendar text-dark"></i>
+              <i className="fa fa-calendar text-dark px-2"></i>
             </label>
             <input
               onClick={openCalendar}
@@ -71,7 +71,7 @@ const Header = (props) => {
           </div>
           <div className="form-input col-lg-3">
             <label>
-              <i className="fa fa-female text-dark"></i>
+              <i className="fa fa-female text-dark px-2"></i>
             </label>
             <span className="cursor-pointer text-dark">
               1 adult - 0 children - 1 room{" "}

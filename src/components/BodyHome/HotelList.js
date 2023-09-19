@@ -2,7 +2,7 @@ import React from "react";
 import dataHotel from "../../data/hotel_list.json";
 const HotelList = (props) => {
   return (
-    <div className="row hotel mt-3">
+    <div className="row hotel my-4">
       {dataHotel.map((hotel, i) => {
         return (
           <div className="col-lg-3 hotel-items" key={i}>

@@ -31,19 +31,12 @@ mark {
   background-color: #003580;
   color: white;
 }
-.form-signup input.subscribe {
-  width: 20%;
-}
-.type {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+#body-content .signup {
+  width:100%;
 }
 
-.type-items .type-items__img {
-  /* width: 100%; */
-  /* position: relative; */
-  width: 145px;
+.type-items .type-items__img img {
+  width: 218px ;
 }
 .type-items .type-items__img img {
   border-top-left-radius: 20px;

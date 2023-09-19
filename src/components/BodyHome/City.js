@@ -2,7 +2,7 @@ import React from "react";
 import dataCity from "../../data/city.json";
 const City = (props) => {
   return (
-    <div className="row city mt-3 mb-2">
+    <div className="row city my-4">
       {dataCity.map((city, i) => {
         return (
           <div className="col-lg-4 city-items" key={i}>
